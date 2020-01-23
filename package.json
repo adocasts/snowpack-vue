@@ -1,0 +1,28 @@
+{
+  "name": "snowpack-vue",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "prepare": "npx snowpack --clean --include 'src/**/*.js'",
+    "start": "serve ./"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jagr-co/snowpack-vue.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jagr-co/snowpack-vue/issues"
+  },
+  "homepage": "https://github.com/jagr-co/snowpack-vue#readme",
+  "dependencies": {
+    "http-vue-loader": "^1.4.1",
+    "vue": "^2.6.11"
+  },
+  "devDependencies": {
+    "serve": "^11.3.0"
+  }
+}

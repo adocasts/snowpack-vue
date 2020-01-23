@@ -1,0 +1,6 @@
+{
+  "imports": {
+    "http-vue-loader": "./http-vue-loader.js",
+    "vue/dist/vue.esm.browser": "./vue/dist/vue.esm.browser.js"
+  }
+}
